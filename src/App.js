@@ -5,7 +5,8 @@ import './Components/Demo/Demo.jsx';
 function App() {
   return (
     <div className="App">
-      Hello World
+      Hello Om
+      <demo></demo>
     </div>
   );
 }
