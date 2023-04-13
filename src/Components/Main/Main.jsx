@@ -1,8 +1,5 @@
 import { NavComponent } from "../Navbar/Navbar";
 
-
-
-
 export const MainComponent = ()=>{
 
     return (
