@@ -1,9 +1,6 @@
 import { CardComponent } from "../Card/Card";
 import { NavComponent } from "../Navbar/Navbar";
 
-
-
-
 export const MainComponent = ()=>{
 
     return (

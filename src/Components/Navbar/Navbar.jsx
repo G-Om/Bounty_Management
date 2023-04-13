@@ -7,7 +7,7 @@ export const NavComponent = () => {
       <nav class="navbar navbar-expand-lg navbar-dark nav-color-sid">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            Bounties
+            Welcome to Bounties
           </a>
           <button
             class="navbar-toggler"
@@ -27,7 +27,7 @@ export const NavComponent = () => {
                   Home
                 </a>
               </li>
-              <li class="nav-item">
+              {/* <li class="nav-item">
                 <a class="nav-link" href="#">
                   Features
                 </a>
@@ -39,7 +39,7 @@ export const NavComponent = () => {
               </li>
               <li class="nav-item">
                 <a class="nav-link disabled">Disabled</a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
