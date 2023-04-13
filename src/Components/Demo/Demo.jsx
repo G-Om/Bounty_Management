@@ -1,5 +1,6 @@
+import React from "react";
 
-export const demo = ()=>{
+export function DemoComponent(){
     return (
     <div className="Demo">Hello World</div>
     );

@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import './Components/Demo/Demo.jsx';
+import { DemoComponent } from './Components/Demo/Demo.jsx';
+import { MainComponent } from './Components/Main/Main';
 
 function App() {
   return (
     <div className="App">
-      Hello Om
-      <demo></demo>
+      <MainComponent></MainComponent>
     </div>
   );
 }
