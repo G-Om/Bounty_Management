@@ -1,15 +1,35 @@
-.card-main {
-    width: 17rem;
-    height: auto;
-}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
+.card{
+    width: auto;
+    height: auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    align-content: center;
+}
+.card-title{
+    color: white;
+    text-align: center;
+    margin-top: auto;
+}
+.card-title2{
+    color: white;
+}
+.card-image{
+    filter: blur(3px);
+}
+.card-text{
+    background-color: rgb(32, 123, 188);
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+}
 .row-grid {
     display: flex;
     background-color: rgb(138, 43, 226);
     margin: 1rem;
 }
 .cont-card {
-    /* background-color: rgb(138, 43, 226); */
     padding-left: var(--padding-left);
     padding-right: var(--padding-right);
     padding-bottom: 30vh;
@@ -20,9 +40,7 @@
     padding-left: var(--padding-left);
     padding-right: var(--padding-right);
 }
-.card-title{
-    color: white;
-}
+
 
 :root {
     --padding-layout: 0.6rem;
