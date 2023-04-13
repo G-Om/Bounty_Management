@@ -1,14 +1,13 @@
-import './Navbar.css'
+import './Navbar.css';
 
 
 export const NavComponent = () => {
   return (
     <div className="Navbar">
-      <h1>NAVBAR</h1>
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-dark nav-color-sid">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            Navbar
+            Bounties
           </a>
           <button
             class="navbar-toggler"
