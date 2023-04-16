@@ -1,14 +1,14 @@
-import { CardComponent } from "../Card/Card";
-import { NavComponent } from "../Navbar/Navbar";
-import { SubmissionComponent } from "../Submission/Submission";
+import { HomeComponent } from "../Home/Home";
+import Bounties from "./Bounty";
+
 
 export const MainComponent = ()=>{
 
     return (
         <div className="main">
-            <NavComponent></NavComponent>
-            {/* <CardComponent></CardComponent> */}
-            <SubmissionComponent></SubmissionComponent>
+            {/* <HomeComponent></HomeComponent> */}
+            {/* <Card></Card> */}
+            <Bounties></Bounties>
         </div>
     );
 }

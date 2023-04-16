@@ -1,6 +1,6 @@
 import { Card, Col, Row, ListGroup, Button } from "react-bootstrap";
 import "./Card.css";
-export const CardComponent = () => {
+export const CardListComponent = () => {
   return (
     <div className="CardComponent">
      
@@ -67,6 +67,38 @@ export const CardComponent = () => {
           </Row>
         </Row>
       </Col>
+    </div>
+  );
+};
+
+
+
+export const CardComponent = ({_title, _desc, _reward, _deadline}) => {
+  return (
+    <div className="CardComponent">
+        <Row>
+          <Row xs={1} md={2} lg={3} className="g-3 cont-card">
+          
+              <Col className="card-column">
+                <Card>
+                  <Card.Img variant="top" src="Bounty_Card_img.avif" />
+                  <Card.Body>
+                    <Card.Title>{_title}</Card.Title>
+                    <Card.Text>
+                      {_desc}
+                    </Card.Text>
+                    <Card.Text>
+                      <b>Reward:</b>{_reward}
+                    </Card.Text>
+                    <Card.Text>
+                      <b>Deadline:</b>{_deadline}
+                    </Card.Text>
+                    
+                  </Card.Body>
+                </Card>
+              </Col>
+          </Row>
+        </Row>
     </div>
   );
 };

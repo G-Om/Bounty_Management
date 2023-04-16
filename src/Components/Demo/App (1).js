@@ -1,10 +1,8 @@
-import { MainComponent } from "./Components/Main/Main";
+
 import React, { useEffect, useState, useRef } from "react";
 import Web3Modal from "web3modal";
 import { providers, Contract } from "ethers";
-import Bounties from "./Components/Main/Bounty";
-import { CardComponent } from "./Components/Card/Card";
-
+import Bounties from "./Components/Bounty";
 
 const App = () => {
   console.log(process.env.REACT_APP_WALLET_ADD);
