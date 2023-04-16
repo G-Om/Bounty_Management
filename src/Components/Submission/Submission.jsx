@@ -1,26 +1,31 @@
 import { Input } from "@mui/material";
 import { Row, Col } from "react-bootstrap";
 import "./Submission.css";
+import { useEffect, useState } from "react";
 
 export const SubmissionComponent = () => {
+    const [title, setTitle] = useState("Title");
+    const [description, setDescription] = useState("Description");
+    const [details, setDetails] = useState("Details");
+    const [reward, setReward] = useState("Reward");
+    const [Deadline, setDeadline] = useState("Deadline");
+
+
   return (
     <div>
-      <h1 className="pg-title">Typeface without relying</h1>
+      <h1 className="pg-title">{title}</h1>
       <Col className="submission-container">
        
         <Row>
           <h3>Description</h3>
           <p className="w-50 justify-items-start">
-            In publishing and graphic design, Lorem ipsum is a placeholder text
-            commonly used to demonstrate the visual form of a document or a
-            typeface .
+            {description}
           </p>
         </Row>
         <Row >
           <h3>Details</h3>
           <p className="w-75 justify-items-start" >
-            In publishing and graphic design, Lorem ipsum is a placeholder text
-            
+            {details}
           </p>
         </Row>
         <Row>
@@ -28,7 +33,7 @@ export const SubmissionComponent = () => {
             <h5>Reward : </h5>
             </Col>
             <Col lg={10} md={5} xs={4}>
-            <p>Your Reward</p>
+            <p>{reward}</p>
             </Col>
         </Row>
         <Row>
@@ -36,7 +41,7 @@ export const SubmissionComponent = () => {
             <h5>Deadline : </h5>
             </Col>
             <Col  lg={10} md={5} xs={4}>
-            <p>Time Remaining</p>
+            <p>{Deadline}</p>
             </Col>
         </Row>
         <Row>
