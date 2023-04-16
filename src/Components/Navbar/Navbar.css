@@ -43,6 +43,9 @@ a:active {
   border: 1px solid rgb(var(--primary-color));
   color: rgb(var(--text-color));
 }
+img.metamask-logo {
+    border-radius: 13px;
+}
 
 .metamask-logo {
   width: 50px;
